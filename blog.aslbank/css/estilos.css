@@ -1,8 +1,37 @@
-body
-
-{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(30, 30, 30);
-    color: darkorange;
+body {
+	background: rgb(30, 30, 30);
+	font-family: 'Courier New', Courier, monospace;
+	color: #fff;
+	line-height: 1.5em;
+	font-size: 14px;
 }
+
+h1 {
+    color: darkorange; 
+}
+
+.Head-body {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: darkorange;
+    padding-bottom: 20px;
+  
+}
+
+.a-body {
+    padding-top: 20px;
+    margin: auto;
+    background: rgb(35, 35, 35);
+    padding-bottom: 20px;
+    
+}
+
+.a-intro {
+
+    margin: auto;
+    max-width: 750px;
+    padding-bottom: 20px;
+
+}
+
