@@ -1,0 +1,28 @@
+{
+    "personas": [
+        {
+            "nombre": "fabian",
+            "nickname": "uu"
+        },
+        {
+            "nombre": "jesus",
+            "nickname": "jesus123"
+        },
+        {
+            "nombre": "maria",
+            "nickname": "maria24"
+        },
+        {
+            "nombre": "luis",
+            "nickname": "luis123"
+        },
+        {
+            "nombre": "oscar",
+            "nickname": "oscar12"
+        },
+        {
+            "nombre": "luis jesus",
+            "nickname": "luis321"
+        }
+    ]
+}
