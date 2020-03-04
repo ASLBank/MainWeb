@@ -14,7 +14,7 @@
     <div id="output">
 
         <h1 id="title"></h1>
-        <canvas id="img"></canvas>
+        <thing id="img"></thing>
         <p id="date"></p>
         <h1 id="title"></h1>
         <p id ="explanation"></p>
@@ -30,7 +30,7 @@
 
             success: function (whatyougot) {
                 document.getElementById("title").innerHTML = whatyougot.title;
-                document.getElementById("img").innerHTML = "<img src=" + whatyougot.hdurl + "style='width:50%'></img>";
+                document.getElementById("img").innerHTML = <img src="whatyougot.hdurl"style='width:100%'></img>;
                 document.getElementById("date").innerHTML = "Date " + whatyougot.date;
                 document.getElementById("explanation").innerHTML = whatyougot.explanation;
             }
