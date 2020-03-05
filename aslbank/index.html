@@ -20,53 +20,55 @@
         <nav class="blue darken-1">
             <div class="nav-wrapper">
                 <div class="col s12">
-                    <a href="#" class="brand-logo">Nasa Api</a>
+                    <a href="#" class="brand-logo">NASA API</a>
                 </div>
             </div>
         </nav>
     </header>
 
     <div class="container">
+
         <main>
             <section>
                 <h1 class="center-align">Astronomy Picture Of the Day</h1>
                 <div class="row">
                     <div class="col s12 m8 offset-m2">
-                        <div id="apod" class="card">
-
-                        </div>
+                        <div id="apod" class="card"></div>
                     </div>
                 </div>
             </section>
+        </main>
 
-            <footer class="page-footer blue darken-1">
-                <div class="container">
-                    <div class="row">
-                        <div class="col l6 s12">
-                            <h5 class="white-text">Nasas API</h5>
-                            
-                        </div>
-                    </div>
+    </div> 
+    <footer class="page-footer blue darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">NASA API</h5>
                 </div>
-
-                <div class="footer-copyright">
-                    <div class="container">
-                        © 2020 AtonCode
-                    </div>
-                </div>
-            </footer>
-
-            <div id="speed-container" class="range-field">
-                <label for="speed-slider">Travel Speed</label>
-                <input value="20" type="range" id="speed-slider" step="1" min="0" max="100" />
             </div>
+        </div>
+    
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 AtonCode
+            </div>
+        </div>
+    </footer>
+    
+    <div id="speed-container" class="range-field">
+        <label for="speed-slider">Travel Speed</label>
+        <input value="20" type="range" id="speed-slider" step="1" min="0" max="100" />
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="nasa.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+    <script src="starfield.js"></script>
+    <script src="js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            <script src="nasa.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
-            <script src="starfield.js"></script>
-            <script src="js/index.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </body>
 
 </html>
