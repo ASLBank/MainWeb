@@ -6,3 +6,16 @@ body
     background-color: rgb(30, 30, 30);
     color: darkorange;
 }
+
+ #speed-container {
+                position: fixed;
+                right: 2em;
+                bottom: 0;
+            }
+            h1, h2, #start {
+                color: white;
+            }
+            table {
+                background-color: white;
+                margin-bottom: 2em;
+            }
