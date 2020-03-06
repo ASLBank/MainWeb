@@ -2,9 +2,9 @@ body
 
 {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
     background-color: rgb(30, 30, 30);
-    color:  rgb(7, 206, 7);
+    color:  rgb(255, 255, 255);
 }
 
 #apod
@@ -13,13 +13,5 @@ body
 background-color: rgb(48, 47, 47);
 }
 
- #speed-container {
-                position: fixed;
-                right: 2em;
-                bottom: 0;
-            }
-            #start {
-                color: rgb(7, 206, 7);
-                
-            }
-            
+ 
+
