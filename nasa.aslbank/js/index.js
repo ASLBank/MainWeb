@@ -1,4 +1,4 @@
-const apiKey = "OfzgBPXMt4Ao8IW5gKBFIePSEzUtHzhsIQV5M8oS";
+const apiKey = "kI1EGelOWCObrSewhbWlDYBnw9pAWsvrfUun1BWi";
 const apodUrl = "https://api.nasa.gov/planetary/apod";
 const afeedUrl = "https://api.nasa.gov/neo/rest/v1/feed";
 
